@@ -31,9 +31,36 @@
     <!--header section start-->
     <!--main section start-->
     <main>
+    <!-- video-modal section start --> 
+    <section class="video-modal">
       <div class="wrapper">
-        
+        <ul class="videos">
+          <li class="video">
+            <figure>
+              <img src="http://img.youtube.com/vi/WsptdUFthWI/mqdefault.jpg" alt="Video One">
+            </figure>
+            <video class="click" src="https://www.youtube.com/embed/WsptdUFthWI?showinfo=0"></video>
+          </li>
+          <li class="video">
+            <figure>
+              <img src="http://img.youtube.com/vi/dX3k_QDnzHE/mqdefault.jpg" alt="Video Two">
+            </figure> 
+            <video class="click" src="https://www.youtube.com/watch?v=dX3k_QDnzHE"></video>             
+          </li>
+          <li class="video">
+            <figure>
+              <img src="http://img.youtube.com/vi/EcKinnMXuKg/mqdefault.jpg" alt="Video Three">
+            </figure>
+            <video class="click" src="https://www.youtube.com/watch?v=EcKinnMXuKg"></video>
+          </li>
+        </ul>
+        <div class="video-lightbox">
+          <iframe class="currentVideo" id="youtube-video" src="https://www.youtube.com/embed/WsptdUFthWI?showinfo=0" allowfullscreen></iframe>
+          <span class="close">close</span>
+        </div>
       </div>
+    </section>
+    <!-- video-modal section end -->
     </main>
     <!--main section end-->
 
